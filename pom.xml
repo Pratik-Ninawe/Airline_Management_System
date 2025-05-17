@@ -40,7 +40,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+>>>>>>> 4ca9d0872d5e5fbc58a92a044ff565671cd3c713
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -52,6 +59,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
@@ -63,6 +71,10 @@
 			<artifactId>logback-classic</artifactId>
 			<version>1.5.13</version>
 		</dependency>
+=======
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+>>>>>>> 4ca9d0872d5e5fbc58a92a044ff565671cd3c713
 	</dependencies>
 
 	<build>
